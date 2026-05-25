@@ -164,7 +164,7 @@ HEADER = (
 )
 
 
-@Client.on_message(filters.text & (filters.group | filters.private) & filters.regex(r"^(الاوامر|الأوامر|أوامر|اوامر|الاوامر؟)$"))
+@Client.on_message(filters.regex(r"^(الاوامر|الأوامر|أوامر|اوامر)$") & (filters.group | filters.private))
 async def show_help(client, message: Message):
     await message.reply_text(
         HEADER,
