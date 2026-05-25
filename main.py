@@ -16,6 +16,7 @@ def connect_redis():
             password=config.REDIS_PASSWORD,
             decode_responses=True,
             ssl=True,
+            ssl_cert_reqs=None,
         )
         r.ping()
         print(f"✅ تم الاتصال بـ Redis على {config.REDIS_HOST}:{config.REDIS_PORT}")
