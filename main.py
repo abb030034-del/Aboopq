@@ -9,10 +9,10 @@ import config
 
 def connect_redis():
     try:
-        url = f"redis://default:{config.REDIS_PASSWORD}@{config.REDIS_HOST}:{config.REDIS_PORT}"
+        url = "redis://default:OeBBnCcMEwjJlMQnoIizGaFXueCYzYrC@zephyr.proxy.rlwy.net:15826"
         r = redis.from_url(url, decode_responses=True)
         r.ping()
-        print(f"✅ تم الاتصال بـ Redis على {config.REDIS_HOST}:{config.REDIS_PORT}")
+        print(f"✅ تم الاتصال بـ Redis")
         return r
     except Exception as e:
         print(f"❌ فشل الاتصال بـ Redis : {e}")
