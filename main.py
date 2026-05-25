@@ -9,8 +9,8 @@ import config
 
 def connect_redis():
     try:
-        url = f"rediss://default:{config.REDIS_PASSWORD}@{config.REDIS_HOST}:{config.REDIS_PORT}"
-        r = redis.from_url(url, decode_responses=True, ssl_cert_reqs=None)
+        url = f"redis://default:{config.REDIS_PASSWORD}@{config.REDIS_HOST}:{config.REDIS_PORT}"
+        r = redis.from_url(url, decode_responses=True)
         r.ping()
         print(f"✅ تم الاتصال بـ Redis على {config.REDIS_HOST}:{config.REDIS_PORT}")
         return r
