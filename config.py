@@ -28,8 +28,7 @@ sudo_id      = [Dev_Zaid]
 botUsername  = ""
 
 # ====== إعدادات Redis (Upstash) ======
-_REDIS_URL    = "redis://default:Go8h9KVgVEILCzMVa3r8sSdELHXDzKpW@uplifting-worthy-animal-49596.db.redis.io:18026"
-REDIS_HOST    = "uplifting-worthy-animal-49596.db.redis.io"
-REDIS_PORT    = 18026
-REDIS_DB      = 0
-REDIS_PASSWORD = "Go8h9KVgVEILCzMVa3r8sSdELHXDzKpW"
+REDIS_HOST     = "integral-ultrafine-zany-57472.db.redis.io"
+REDIS_PORT     = 18298
+REDIS_DB       = 0
+REDIS_PASSWORD = "y9KclYxSQe2OlJrN3aIJAeCmgHbvaYgU"
