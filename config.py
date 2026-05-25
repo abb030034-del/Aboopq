@@ -27,8 +27,8 @@ Dev_Zaid     = 8588392906
 sudo_id      = [Dev_Zaid]
 botUsername  = ""
 
-# ====== إعدادات Redis (Upstash) ======
-REDIS_HOST     = "integral-ultrafine-zany-57472.db.redis.io"
-REDIS_PORT     = 18298
+# ====== إعدادات Redis (Railway) ======
+REDIS_HOST     = "zephyr.proxy.rlwy.net"
+REDIS_PORT     = 15826
 REDIS_DB       = 0
-REDIS_PASSWORD = "y9KclYxSQe2OlJrN3aIJAeCmgHbvaYgU"
+REDIS_PASSWORD = "OeBBnCcMEwjJlMQnoIizGaFXueCYzYrC"
